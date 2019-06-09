@@ -1,0 +1,70 @@
+/*
+-----------------------------
+--dev 
+-----------------------------
+white: #FFFFFF;
+grey: #dddddd;
+green: #81c443;
+black: #292929;
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma|Lato:700&display=swap');
+/* font-family: 'Baloo Tamma', 'Lato'; */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: 'Lato';
+    font-weight: 100;
+    font-style: normal;
+}
+.title-main{
+    font-family: "Baloo Tamma";
+    color: #292929;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+hr{
+    background-color: #dddddd;
+    border: 0px solid transparent;
+    height: 2px;
+}
+.button-radius{
+    display: inline-block;
+    font:;
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    padding: 7px 15px;
+}
+.button-green{
+    color: #FFFFFF;
+    background-color: #81c443;
+}
+.button-grey{
+    color: #292929;
+    background-color: #dddddd;
+}
+.ico-green{
+    color: #81c443;
+}
+
+.meta-tag-container{
+    
+}
+.meta-tag-item{
+    display: inline;
+    color: grey;
+    background-color: transparent;
+    font-family: inherit;
+    border: 3px solid black;
+}
+.meta-tag-ico{
+    color: grey;
+    font-size: 1.6em;
+}
