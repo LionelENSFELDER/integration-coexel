@@ -6,13 +6,13 @@ white: #FFFFFF;
 grey: #dddddd;
 green: #81c443;
 black: #292929;
-
 */
 
-
+/* FONT FAMILY */
 @import url('https://fonts.googleapis.com/css?family=Baloo+Tamma|Lato:700&display=swap');
 /* font-family: 'Baloo Tamma', 'Lato'; */
 
+/* INIT */
 *{
     box-sizing: border-box;
 }
@@ -22,6 +22,15 @@ body{
     font-weight: 100;
     font-style: normal;
 }
+
+/* FONTS COLORS */
+.font-white{
+    color: #FFFFFF;
+}
+.font-green{
+    color: #81c443;
+}
+/* ??? */
 .title-main{
     font-family: "Baloo Tamma";
     color: #292929;
@@ -29,11 +38,13 @@ body{
 .uppercase{
     text-transform: uppercase;
 }
+/* HR */
 hr{
-    background-color: #dddddd;
+    background-color: #dfdfdf;
     border: 0px solid transparent;
-    height: 2px;
+    height: 1px;
 }
+/* BUTTON */
 .button-radius{
     display: inline-block;
     font:;
@@ -50,10 +61,11 @@ hr{
     color: #292929;
     background-color: #dddddd;
 }
+/* ICO */
 .ico-green{
     color: #81c443;
 }
-
+/* META TAG */
 .meta-tag-container{
     
 }
@@ -62,9 +74,35 @@ hr{
     color: grey;
     background-color: transparent;
     font-family: inherit;
-    border: 3px solid black;
+    border: 3px solid transparent;
+}
+.meta-tag-item-green{
+    color: #81c443;
 }
 .meta-tag-ico{
     color: grey;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
+.meta-tag-ico-light{
+    color: rgb(201, 201, 201);
+    font-size: 1.4em;
+}
+.meta-tag-ico-green{
+    color: #81c443;
+    font-size: 1.4em;
+}
+/* COMMENTS SECTION */
+.comment-section-container{
+    border: 2px solid grey;
+    margin: 15px 0px 30px 0px;
+}
+/* COMMENT UNIT */
+.comment-unit-container{
+
+}
+.comment-unit-img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+/* COMMENT TEXT AREA */
