@@ -22,7 +22,38 @@ body{
     font-weight: 100;
     font-style: normal;
 }
-
+/* Grid */
+.two-columns{
+    display: flex;
+    flex-direction: row;
+}
+.one-column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+/* CONTAINER-MAIN */
+.container-main{
+    padding: 0px 50px;
+}
+/* NAV */
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+    position: relative;
+}
+.nav i{
+    padding: 5px;
+}
+.nav i:nth-of-type(1){
+    background-color: violet;
+}
+.nav i:nth-of-type(2){
+    background-color: aqua;
+    position: relative;
+    right: -96%;
+}
 /* FONTS COLORS */
 .font-white{
     color: #FFFFFF;
@@ -30,13 +61,22 @@ body{
 .font-green{
     color: #81c443;
 }
+.font-grey{
+    color: #dddddd;
+}
 /* ??? */
 .title-main{
     font-family: "Baloo Tamma";
     color: #292929;
+    margin-top: 0px;
 }
 .uppercase{
     text-transform: uppercase;
+}
+/*ALONE LINK*/
+.text-align-right{
+    text-align: right;
+    margin-top: 140px;
 }
 /* HR */
 hr{
@@ -98,11 +138,45 @@ hr{
 }
 /* COMMENT UNIT */
 .comment-unit-container{
-
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    padding: 10px;
 }
 .comment-unit-img{
-    width: 50px;
-    height: 50px;
+    display: flex;
+    width: 60px;
+    height: 60px;
     vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 15px;
 }
-/* COMMENT TEXT AREA */
+.comment-unit-text{
+    display: flex;
+    color: grey;
+}
+.comment-unit-name{
+    font-weight: bold;
+    color: #81c443;
+}
+.comment-unit-date{
+    font-style: italic;
+}
+/* COMMENT EDIT */
+.comment-section-edit{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+}
+.comment-section-edit-icon{
+    padding: 10px;
+}
+.comment-section-edit-input{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+}
+.comment-section-edit-input input{
+    width: 100%;
+    border: 1px solid violet;
+}
