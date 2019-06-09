@@ -32,9 +32,12 @@ body{
     flex-direction: column;
     width: 50%;
 }
-/* CONTAINER-MAIN */
+/* CONTAINERS */
 .container-main{
     padding: 0px 50px;
+}
+section{
+    margin-bottom: 10px;
 }
 /* NAV */
 .nav{
@@ -66,11 +69,15 @@ body{
 .font-grey{
     color: #dddddd;
 }
-/* ??? */
+/* TITLES */
 .title-main{
     font-family: "Baloo Tamma";
     color: #292929;
     margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3{
+    color: #81c443;
 }
 .uppercase{
     text-transform: uppercase;
@@ -80,11 +87,14 @@ body{
     text-align: right;
     margin-top: 140px;
 }
+.text-align-right a{
+    text-decoration: none;
+}
 /* HR */
 hr{
-    background-color: #dfdfdf;
+    background-color: #ececec;
     border: 0px solid transparent;
-    height: 1px;
+    height: 2px;
 }
 /* BUTTON */
 .button-radius{
@@ -118,10 +128,19 @@ hr{
     font-family: inherit;
     border: 3px solid transparent;
 }
+.meta-tag-item .bold{
+    font-weight: bolder;
+    color: rgb(41, 41, 41);
+}
 .meta-tag-item-green{
     color: #81c443;
 }
 .meta-tag-ico{
+    color: grey;
+    font-size: 1.4em;
+    margin: 0px 5px;
+}
+.meta-tag-ico-star{
     color: grey;
     font-size: 1.4em;
 }
@@ -135,14 +154,14 @@ hr{
 }
 /* COMMENTS SECTION */
 .comment-section-container{
-    border: 2px solid grey;
+    border: 2px solid #dddddd;
     margin: 15px 0px 30px 0px;
 }
 /* COMMENT UNIT */
 .comment-unit-container{
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    border: 1px solid transparent;
     padding: 10px;
 }
 .comment-unit-img{
@@ -155,7 +174,7 @@ hr{
 }
 .comment-unit-text{
     display: flex;
-    color: grey;
+    color: #dddddd;
 }
 .comment-unit-name{
     font-weight: bold;
@@ -168,10 +187,11 @@ hr{
 .comment-section-edit{
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
+    border: 1px solid #dddddd;
 }
 .comment-section-edit-icon{
     padding: 10px;
+    border: 1px solid #dddddd;
 }
 .comment-section-edit-input{
     width: 100%;
@@ -180,5 +200,5 @@ hr{
 }
 .comment-section-edit-input input{
     width: 100%;
-    border: 1px solid violet;
+    border: 1px solid transparent;
 }
