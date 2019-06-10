@@ -9,7 +9,7 @@ black: #292929;
 */
 
 /* FONT FAMILY */
-@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma|Lato:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma|Lato:400,400i,700,700i,900,900i&display=swap');
 /* font-family: 'Baloo Tamma', 'Lato'; */
 
 /* INIT */
@@ -21,6 +21,7 @@ body{
     font-family: 'Lato';
     font-weight: 100;
     font-style: normal;
+    color: #5e5e5e;
 }
 /* Grid */
 .two-columns{
@@ -78,6 +79,8 @@ section{
 }
 h3{
     color: #81c443;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
 .uppercase{
     text-transform: uppercase;
@@ -95,6 +98,10 @@ hr{
     background-color: #ececec;
     border: 0px solid transparent;
     height: 2px;
+}
+/*MARGIN RIGHT*/
+.mr-ten{
+    margin-right: 10px;
 }
 /* BUTTON */
 .button-radius{
@@ -125,7 +132,7 @@ hr{
     display: inline;
     color: grey;
     background-color: transparent;
-    font-family: inherit;
+    font-weight: 400;
     border: 3px solid transparent;
 }
 .meta-tag-item .bold{
@@ -136,7 +143,7 @@ hr{
     color: #81c443;
 }
 .meta-tag-ico{
-    color: grey;
+    color: #dddddd;
     font-size: 1.4em;
     margin: 0px 5px;
 }
@@ -162,7 +169,7 @@ hr{
     display: flex;
     flex-direction: row;
     border: 1px solid transparent;
-    padding: 10px;
+    padding: 7px;
 }
 .comment-unit-img{
     display: flex;
@@ -191,14 +198,16 @@ hr{
 }
 .comment-section-edit-icon{
     padding: 10px;
-    border: 1px solid #dddddd;
+    border: 0px solid transparent;
+    border-right: 1px solid #dddddd;
 }
 .comment-section-edit-input{
     width: 100%;
     display: flex;
     padding: 5px;
+    border: 1px solid transparent;
 }
 .comment-section-edit-input input{
     width: 100%;
-    border: 1px solid transparent;
+    border: 0px solid transparent;
 }
