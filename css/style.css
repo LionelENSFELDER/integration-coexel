@@ -40,6 +40,20 @@ body{
 section{
     margin-bottom: 10px;
 }
+/*NAV ARROWS*/
+.nav-arrow-left{
+    position: fixed;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #dddddd;
+}
+.nav-arrow-right{
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    border-radius: 50%;
+    background-color: #dddddd;
+}
 /* NAV */
 .nav{
     display: flex;
